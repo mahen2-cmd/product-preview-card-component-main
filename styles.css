@@ -1,8 +1,27 @@
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
     body {
-        background-color: #F09A9D;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        display: flex;
         /* Red */
+    }
+
+    .container {
+        background-color: #f0f0f0;
+        width: 50%;
+        /* height: 500px; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image {
+        width: 50%;
+        height: 50%;
+        border-radius: 10px 0 0 10px;
+
     }
 }
 
@@ -32,7 +51,7 @@ body {
 .image {
     width: 350px;
     height: 500px;
-    border-radius: 10px 0 0 10px;;
+    border-radius: 10px 0 0 10px;
 }
 
 .section2 {
